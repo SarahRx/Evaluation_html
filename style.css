@@ -1,0 +1,37 @@
+/* FONTS */
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Comic+Neue:wght@400;700&family=Quicksand:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,700&display=swapoogleapis.com/css2?family=Comic+Neue:wght@400;700&family=Quicksand:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Comic+Neue:wght@400;700&family=Quicksand:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,700&family=Unbounded:wght@200;300;400;500;600;700&display=swap);
+/* NAVBAR */
+nav {
+  font-family: "Unbounded", sans-serif;
+}
+
+#logo-sou {
+  border-radius: 100%;
+}
+
+/*Intro Banner*/
+.banner {
+  width: 100%;
+  max-width: 100%;
+}
+
+#introduction {
+  position: relative;
+  font-family: "Comfortaa", sans-serif;
+  color: black;
+  text-align: center;
+  padding: 50px 0 0;
+} 
+
+.img-banner {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.img-banner img {
+  width: 100%;
+  max-width: 100%;
+}
