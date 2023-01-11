@@ -11,9 +11,9 @@ nav {
 }
 
 /*Intro Banner*/
-.banner {
-  width: 100%;
-  max-width: 100%;
+
+h1 {
+  font-weight: 600;
 }
 
 #introduction {
@@ -34,4 +34,49 @@ nav {
 .img-banner img {
   width: 100%;
   max-width: 100%;
+}
+
+/*Role Section*/
+#role-section {
+  background-color: #e4e4e4;
+  font-family: "Comfortaa", sans-serif;
+  padding-bottom: 30px;
+}
+h2 {
+  text-align: center;
+  padding: 20px;
+  font-weight: 600;
+  
+}
+
+#presentation{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 1.5;
+  padding-top: 20px;
+}
+
+/*Programm Section*/
+
+.cards-wrapper {
+  display: flex;
+}
+
+.card {
+  margin: 0 0.5em;
+  width: calc(100%/3);
+}
+
+.img-wrapper {
+  height: 40vw;
+}
+
+.img-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.arrow {
+  background-color: black;
 }
