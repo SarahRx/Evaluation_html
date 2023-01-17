@@ -4,8 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link rel="stylesheet" ype="text/CSS" href="style.css">
   <meta name="description" content="Le sou des écoles est une association dont le but est d’organiser des événements pour financer des projets éducatifs et récréatifs pour les enfants de l’école de Légny.">
   <title>Le Sou des écoles de Légny</title>
@@ -51,18 +53,32 @@
   </section>
   <!-- END INTRO BANNER-->
 <!-- START SECTION OUR ROLE-->
-<section class="container-fluid" id="role-section">
-  <h2>Notre Rôle</h2>
-  <div class="row justify-content-around">
-    <div class="col-lg-4">
-      <img class="img-fluid" id="img-role" src="img/happy-child.jpg" alt="happy child" />
+<section class="container-fluid " id="role-section">
+  <h2 id="role-title">Notre Mission, Votre Rôle</h2>
+  <div class="row justify-content-around p">
+    <div class="p-2 col-lg-6 presentation">
+      <ul>
+        <li><i class="bi bi-fan icon"></i>
+          Le Sou des écoles de Légny est une association laïque 1901 qui a pour but de réunir des fonds 
+          pour les projets pédagogiques des enseignants.
+        </li>
+        <br>
+        <li><i class="bi bi-fan icon"></i>
+          Le Sou des écoles de Légny a pour objectif de non seulement récolter des fonds, mais également de promouvoir la socialisation des enfants et de leur famille en organisant régulièrement des événements pour les réunir.
+        </li>
+      </ul>
     </div>
-    <div class="col-lg-5" id="presentation">
-      Le Sou des écoles de Légny est une association laïque 1901. Son objectif: organiser des évènements
-      et animations dans le but de réunir les fonds nécessaires à la réalisation des projets pédagogiques des enseignants.
-      C'est grâce à l'implication de chaque parent que les enfants peuvent partir en classe transplantée ou participer à des
-      activités culturelles et sportives.
-      Le Sou des écoles participe également à l'achat de matériels et jeux éducatifs pour les classes.
+    <div class="p-2 col-lg-6 presentation">
+      <ul>
+        <li><i class="bi bi-fan icon"></i>
+          Grâce à l'implication des parents, les enfants peuvent participer à des activités culturelles et sportives 
+          ainsi que des classes transplantées.
+        </li>
+        <br>
+        <li><i class="bi bi-fan icon"></i>
+          Le Sou des écoles contribue également à l'achat de matériel et jeux éducatifs pour les classes.
+        </li>
+      </ul>
     </div>
   </div>
   </section>
@@ -71,62 +87,18 @@
 <!-- START SECTION PROGRAMM-->
 <section>
   <h2>Programme 2022-2023</h2>
-  <!-- <div class="row row-cols-5 justify-content-around">
-    <div class="m-3">
-      <div class="card" style="width: 18rem;">
-        <img src="img/halloween.png" class="card-img-top" alt="halloween">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="m-3">
-      <div class="card" style="width: 18rem;">
-        <img src="img/sapin.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="m-3">
-      <div class="card" style="width: 18rem;">
-        <img src="img/noel.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="m-3">
-    <div class="card" style="width: 18rem;">
-      <img src="img/galette.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-</div> -->
-
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="cards-wrapper">
         <div class="card">
           <img src="img/halloween.png" class="img-wrapper" alt="halloween">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
           </div>
         <div class="card">
           <img src="img/sapin.jpg" class="img-wrapper" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
         </div>
         <div class="card">
           <img src="img/noel.png" class="img-wrapper" img-wrapper alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
         </div>
         
       </div>
@@ -135,25 +107,15 @@
       <div class="cards-wrapper">
         <div class="card">
           <img src="img/galette.png" class="img-wrapper" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
         </div>
         <div class="card">
           <img src="img/galette.png" class="img-wrapper" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
         </div>
         <div class="card">
           <img src="img/galette.png" class="img-wrapper" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
         </div>
       </div>
     </div>
-    
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon arrow" aria-hidden="true"></span>
