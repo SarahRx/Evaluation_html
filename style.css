@@ -98,6 +98,11 @@ ul li {
   transition: 0.5s ease-in-out;
 }
 
+.info {
+  border: none;
+  background: transparent;
+}
+
 .card:hover {
   transform: translateY(20px);
 }
@@ -110,7 +115,7 @@ ul li {
   display: block;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1));
+  background: linear-gradient(to bottom, rgba(107, 4, 111, 0.5), rgb(116, 118, 218));
   z-index: 2;
   transition: 0.5s all;
   opacity: 0;
@@ -124,4 +129,43 @@ ul li {
 .img-plan {
   border-radius: 2em;
   box-shadow: 0 0 10px rgba(0,0,0, 0.4);
+}
+
+.bloc .info {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 20rem;
+  z-index: 3;
+  color: #fff;
+  opacity: 0; 
+  transform: translateY(30px);
+  transition: 0.5s all;  
+}
+
+.bloc:hover .info {
+  opacity: 1;
+  transform: translateY(-250px);
+}
+
+
+.card-title {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1.1em;
+}
+
+/*Support Section*/
+
+#support-section {
+  font-family: "Comfortaa", sans-serif;
+  padding-bottom: 30px;
+  min-height: 500px;
+  height: auto;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFFFFF, #ECE9E6); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
