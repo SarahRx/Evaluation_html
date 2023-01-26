@@ -92,16 +92,22 @@ ul li {
 
 /*Programm Section*/
 
+
+.img-plan {
+  border-radius: 2em;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.4);
+}
+
 .card {
   margin: auto;
   border: none;
   transition: 0.5s ease-in-out;
 }
 
-.info {
+/* .info {
   border: none;
   background: transparent;
-}
+} */
 
 .card:hover {
   transform: translateY(20px);
@@ -126,10 +132,6 @@ ul li {
   opacity: 1;
 }
 
-.img-plan {
-  border-radius: 2em;
-  box-shadow: 0 0 10px rgba(0,0,0, 0.4);
-}
 
 .bloc .info {
   position: relative;
@@ -150,13 +152,13 @@ ul li {
 
 
 .card-title {
-  font-size: 2rem;
+  font-size: 30px;
   padding-bottom: 10px;
 }
 
-.card-text {
-  font-size: 1.1em;
-}
+/* .card-text {
+  font-size: 1em;
+} */
 
 /*Support Section*/
 
