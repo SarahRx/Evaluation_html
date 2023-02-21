@@ -41,43 +41,49 @@
   </nav>
 </header>
   <!--END NAVIGATION BARRE-->
+
   <!-- START CONTACT FORM -->
-  <form class="container-fluid ">
+  <form class="container-fluid">
     <h1 class="text-center">Nous Contacter</h1>
     <div class="row justify-content-center">
       <!-- <div class="col-6 "> -->
         <div class="col-md-3 mb-4">
-          <label for="inputLastName" class="form-label">Nom</label>
-          <input type="text" class="form-control form-control-lg" id="inputLastName" aria-describedby="lastNameHelp">
+          <label for="inputLastName" class="form-label">Nom*</label>
+          <input type="text" class="form-control form-control-lg" id="inputLastName" aria-describedby="lastNameHelp" required="">
         </div>
         <div class="col-md-3">
-          <label for="inputFistName" class="form-label">Prénom</label>
-          <input type="text" class="form-control form-control-lg" id="inputFirstName" aria-describedby="fistNameHelp">
+          <label for="inputFistName" class="form-label">Prénom*</label>
+          <input type="text" class="form-control form-control-lg" id="inputFirstName" aria-describedby="fistNameHelp" required>
         </div>
     </div>
     <div class="row justify-content-center">
           <div class="col-md-6 mb-4">
-            <label for="inputEmail" class="form-label">Email</label>
-            <input type="email" class="form-control form-control-lg" id="inputEmail" aria-describedby="lastNameHelp">
+            <label for="inputEmail" class="form-label">Email*</label>
+            <input type="email" class="form-control form-control-lg" id="inputEmail" aria-describedby="lastNameHelp" required>
           </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-md-6">
         <div class="mb-3">
-          <label for="messageText" class="form-label">Message</label>
-          <textarea class="form-control form-control-lg" id="messageText" rows="3"></textarea>
+          <label for="messageText" class="form-label">Message*</label>
+          <textarea class="form-control form-control-lg" id="messageText" rows="3" required></textarea>
+          <p class="field pt-2">*Champs Obligatoires</p>
         </div>
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-6 mb-4 pe-4 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <div class="row justify-content-center checkbox">
+      <div class="col-md-6 mb-4 form-check ">
+        <label class="form-check-label" for="exampleCheck1">J'ai compris que les données de ce formulaire sont nécessaires au traitement de 
+          ma demande et ne sont pas transmises à un tiers.
+          Vous disposez d’un droit de rectification et de suppression des données personnelles vous concernant (voir Politique de confidentialité).
+
+        </label>
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
       </div>
     </div>
     <div class="row justify-content-center">
-    <div class="col-md-6 mb-4">
-      <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="col-md-6 mb-4 pt-3">
+      <button type="submit" class="btn btn-lg btn-support">Envoyer</button>
     </div>
 
     </div>
@@ -103,7 +109,8 @@
 
   </div>
 </footer>
-
 <!-- END FOOTER-->
+<!-- SCRIPT JS -->
+<script src="script.js"></script>
 </body>
 </html>

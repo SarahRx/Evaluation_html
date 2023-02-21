@@ -219,5 +219,29 @@ font-size: 30px;
 
 form {
   font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+ 
+}
 
+.field {
+  font-size: 1rem;
+  font-style: italic;
+}
+.checkbox {
+  padding-left: 15px;
+  font-size: 1rem;
+}
+
+.btn {
+  font-family: "Comfortaa", sans-serif;
+}
+
+/*LEGAL MENTIONS*/
+.articles {
+  font-family: "Roboto", sans-serif;
+}
+
+.mention-title {
+  font-weight: bold;
+  text-decoration: underline;
 }
